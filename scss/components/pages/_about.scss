@@ -1,0 +1,129 @@
+#about{
+      background: url(../images/about.jpg);
+      padding: 113px 0;
+.about_me{
+      .about_heading{
+            text-align: center;
+      }
+.about_profile{
+      margin-top: 26px;
+      img{
+            clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 100% 100%, 52% 90%, 0 99%, 0% 35%, 0 2%);
+      }
+    
+}
+h2 {
+      font-size: 50px;
+      span{
+            color: $perpole_color;
+      }
+}
+.download_cv {
+      margin-left: 10px;
+      margin-top: 10px;
+      a{
+            color: $white_color;
+            @include button_style;
+            border: 1px solid $perpole_color;
+      }
+    }
+    .contact-me {
+      margin-left: 10px;
+      margin-top: 10px;
+      i{
+            margin-left: 5px !important;
+      }
+      a{
+            color: $white_color;
+      }
+     
+    }
+    
+
+}
+.whoIam_heading{
+      h3{
+        color: $white_color;
+      }
+}
+}
+.whoIam{
+      margin-top: 80px;
+      .whoIam_content{
+            margin-top: 14px;
+            
+      }
+      h6{
+            color: $white_color;
+            font-size: 15px;
+      }
+      i{
+            height: 40px;
+            width: 40px;
+            background: $perpale_bg;
+           line-height: 40px;
+           text-align: center;
+          border-radius: 4px;
+           color: $white_color;
+           margin-right: 8px;
+          
+          
+           
+      }
+      .personal_info{
+            padding: 10px 0;
+            h3{
+                  color: $white_color;
+                  margin-left: 10px;
+                  margin-bottom: 10px;
+            }
+            .personal_contact{
+                  margin-top: 20px;
+            }
+           
+      }
+      .location_birth{
+            margin-left: 40px;
+      }
+}
+.whatIdo_heading{
+      margin-top: 40px;
+      h3{
+            color: $white_color;
+      }
+}
+.do_item{
+      transition: .5s;
+      margin-top: 40px;
+      border: 1px solid $perpale_bg;
+      padding: 60px 20px;
+      
+      &:hover{
+            transform: translateY(-10px);
+            box-shadow: 1px 2px 15px 1px rgba(106,27,77,0.75);
+            -webkit-box-shadow: 1px 2px 15px 1px rgba(106,27,77,0.75);
+            -moz-box-shadow: 1px 2px 15px 1px rgba(106,27,77,0.75);
+      }
+      h4{
+            margin-bottom: 10px;
+            color: $white_color;
+      }
+      img{
+            margin-right: 15px;
+      }
+}
+#whatDo{
+      background: linear-gradient(to left, #1a1a29ac, #441232b6), url("../images/about.jpg") no-repeat center/cover;
+      padding: 40px 0;  
+}
+#clients{
+      background: linear-gradient(to left, #1a1a29ac, #441232b6), url("../images/about.jpg") no-repeat center/cover;
+      padding: 40px 0;  
+      .cilent_img{
+            margin-top: 40px;
+      }  
+      h3{
+            color: $white_color;
+      }
+    
+}

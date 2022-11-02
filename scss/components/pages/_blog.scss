@@ -1,0 +1,105 @@
+#blog_page{
+      padding: 50px 0;
+}
+.blog_heading{
+      h2{
+            font-size: 50px;
+            color:$perpole_color;
+      }
+ span{
+      color: $deep_perpale;
+ }
+ p{
+      color: $deep_perpale;
+      margin-top: 10px;
+      position: relative;
+      &:after{
+            position: absolute;
+            height: 3px ;
+            width: 40px;
+            background: $perpale_bg;
+            left: 0px;
+            top: 10.4px;
+            content: "";
+      }
+      &::before{
+            position: absolute;
+            height: 3px ;
+            width: 40px;
+            background: $perpale_bg;
+            right: 0;
+            bottom: 10.4px;
+            content: "";
+      }
+ }
+}
+.blog_item{
+      margin-top: 50px;
+     
+      position: relative;
+      .img_overlay{
+            overflow: hidden;
+            .blog_img{
+                  transition: .5s;
+                  -webkit-transition: .5s;
+                  -moz-transition: .5s;
+                  -ms-transition: .5s;
+                  -o-transition: .5s;
+                  &:hover{
+                        transform: scale(1.3);
+                        -webkit-transform: scale(1.3);
+                        -moz-transform: scale(1.3);
+                        -ms-transform: scale(1.3);
+                        -o-transform: scale(1.3);
+             }
+        
+          }
+          .blog_overlay{
+            position: absolute;
+            height: 14%;
+            width: 11%;
+            top: 12px;
+            left: 86%;
+            background: $perpale_bg;
+            content: "";
+            border-radius: 8px;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            -ms-border-radius: 8px;
+            -o-border-radius: 8px;
+            h5{
+                  color: $white_color;
+                  margin-left: 14px;
+                  margin-top: 9px;
+            }
+            span{
+                  color: $white_color; 
+                  margin-left: 16px; 
+            }
+      }
+       }
+       .blog_details{
+            margin-top: 20px;
+            h5{
+                  font-size: 21px;
+            }
+            p{
+                  color: $deep_perpale;
+                  font-size: 14px;
+                  margin-top: 15px
+            }
+            .blog_button a{
+             @include button_style;
+             background: $perpale_bg;
+             margin-top: 25px;
+            
+}
+       }
+      
+ 
+ }
+ 
+
+
+   
+

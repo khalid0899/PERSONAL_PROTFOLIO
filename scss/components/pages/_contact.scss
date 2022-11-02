@@ -1,0 +1,97 @@
+#contact-us{
+      background: $background_color;
+
+      padding: 70px 0;
+      // .container{
+      //       width: 1280px;
+      // }
+      .contact_heading{
+            h2{
+                  color: $perpole_color;
+                  span{
+                        color: black;
+                  }
+            }
+      }
+      .contact_item{
+            background: $background_color;
+            padding: 40px 0;
+            border-radius: 8px;
+            box-shadow: -1px 3px 19px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 3px 19px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 3px 19px 0px rgba(0,0,0,0.75);
+            h4{
+                  padding: 18px 0;
+            }
+            .contact_icon{
+                  background:$perpale_bg ;
+                  height: 70px;
+                  width: 70px;
+                  margin-left: 136px;
+                  border-radius: 50%;
+                  font-size: 30px;
+                  text-align: center;
+                  line-height: 70px;
+                  i{
+                        color: $white_color;
+                  }
+            }
+            
+      }
+      .contact_info{
+            margin-top: 40px;
+      }
+    
+}
+.any_querstion{
+      margin-top: 50px;
+      box-shadow: -1px 3px 19px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 3px 19px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 3px 19px 0px rgba(0,0,0,0.75);
+     
+     
+      h3{
+
+           margin-top: 28px;
+      }
+      .querstion_form{
+            padding: 40px 28px;
+            background: $background_color;
+            input{
+                  background: #2A2A2A;
+                  border: none;
+                 border-radius: 30px;
+                 margin-top: 20px;
+                 width: 48.5%;
+                 padding: 12px 15px;
+                 color: $white_color;
+                 margin-right: 10px;
+            }
+            textarea{
+                  background: #2A2A2A;   
+                  border: none;
+                  border-radius: 30px;
+                  margin-top: 25px;
+                  padding: 10px;
+                  color: #fff;
+            }
+            .querstion_button{
+                  a{
+                        @include button_style;
+                        background:#2A2A2A ;
+                        border-radius: 30px;
+                        color: $white_color;
+                        margin-top: 26px;
+                        padding: 12px 40px;
+                  }
+            }
+      }
+
+}
+
+#map{
+      height: 400px;
+      width: 100%;
+      margin-top: -80px;
+      
+}

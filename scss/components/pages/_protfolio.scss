@@ -1,0 +1,115 @@
+#protfolio_page{
+      padding: 50px 0;
+}
+.protfolio_heading{
+      margin-bottom: 40px;
+      h2{
+            font-size: 50px;
+            color:$perpole_color;
+      }
+ span{
+      color: $deep_perpale;
+ }
+ p{
+      color: $deep_perpale;
+      margin-top: 10px;
+      position: relative;
+      &:after{
+            position: absolute;
+            height: 3px ;
+            width: 36px;
+            background: $perpale_bg;
+            left: 0px;
+            top: 10.4px;
+            content: "";
+      }
+      &::before{
+            position: absolute;
+            height: 3px ;
+            width: 36px;
+            background: $perpale_bg;
+            right: 0;
+            bottom: 10.4px;
+            content: "";
+      }
+ }
+}
+.protfolio_item {
+      margin-top: 7px;
+      .btn-primary{
+            border: 0;
+            background: none;
+            &:hover{
+                  background: none;
+            }
+      }
+      
+   
+     
+      .protfolio_img{
+            position: relative;
+            &:hover  .protfolio_overlay{
+                  opacity: 1;
+
+            }
+      }
+      .protfolio_overlay{
+            position: absolute;
+            background: $perpale_bg;
+            width: 100%;
+            height: 100%;
+            content: "";
+            left: 0;
+            top: 0;
+            opacity: 0;
+            transition: .5s;
+            -webkit-transition: .5s;
+            -moz-transition: .5s;
+            -ms-transition: .5s;
+            -o-transition: .5s;
+}
+}
+.protfolio_content
+{
+                 
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%,-50%);
+                  -webkit-transform: translate(-50%,-50%);
+                  -moz-transform: translate(-50%,-50%);
+                  -ms-transform: translate(-50%,-50%);
+                  -o-transform: translate(-50%,-50%);
+          }
+            h5{
+                  color: $white_color;
+                  font-size: 20px;
+            }
+            .offcanvas-body{
+                  img{
+                        width: 360px;
+                  }
+                  h5{
+                        color: $perpole_color;
+                        margin-top: 15px;
+                        margin-bottom: 10px;
+                  }
+                  p{
+                        color: $deep_perpale;
+                        margin-bottom: 8px;
+                        i{
+                              color: $deep_perpale;
+                              margin-right: 8px;
+                        }
+                  }
+                  .protfolio_button{
+                        a{
+                              @include button_style;
+                              background: $perpale_bg;
+                              margin-top: 10px;
+                              color: #fff;
+                        }
+                  }
+                
+
+            }

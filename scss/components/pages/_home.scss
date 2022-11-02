@@ -1,0 +1,57 @@
+#banner{
+      background: $background_color;
+      padding: 173.8px 0;
+}
+.banner_content{
+      h3{
+            color: $white_color;
+      }
+      h2{
+            margin-top: 4px;
+      }
+      p{  
+            font-size: 20px;
+            
+      }
+     
+}
+.banner_button{
+      margin-top: 34px;
+      a{
+                  @include button_style;
+                  margin-right: 10px;          
+      }
+      i{
+            margin-left: 8px;
+      }
+      }
+      .banner_img{
+            position: relative;
+        .img_part{
+            position: relative;
+            .profile{
+                  position: absolute;
+                  top: -35px;
+                  right: 21px;
+                  img{
+                     height: 374px;
+                     width: 300px;
+                  }
+            }
+           
+        }
+      }
+            
+      ::-webkit-scrollbar {
+            width: 0;
+      }
+
+      #progressbar {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 5px;
+            border-radius: 10px;
+            background: linear-gradient(to top, #fcb045, #fd1d1d, #833ab4);
+          }
+   

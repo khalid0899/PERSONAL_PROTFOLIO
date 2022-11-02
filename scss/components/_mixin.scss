@@ -1,0 +1,11 @@
+
+
+@mixin button_style {
+      padding: 12px 32px;
+      border: 1px solid $perpole_color;
+      border-radius: 8px;
+}
+@mixin frontawosome_style{
+      font-size: 24px; 
+      color: #fff;
+}
